@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Online store</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    
+    <header>  
+        <div class='header'>
+            <img class='logo'
+                src='/uploads/2023/03/Logo.png'
+                alt='A picture should be here'>
+            <div class='menu'>
+                <a class='menu-elements' href=''>ALL PRODUCTS</a>
+                <a class='menu-elements' href=''>REVIEWS</a>
+                <a class='menu-elements' href=''>ABOUT</a>
+                <a class='menu-elements' href=''>SUPPORT</a>
+        </div>
+    </header>
+
+        <div class='block'>
+            <p class='main-text'>Online Store </p>
+            <p class='smaller-text'>Buy everything you like </p>
+        </div>
+
+    <div class="search-container">
+        <input type="text" class="search-input" >
+        <button class="search-button">🔍</button>
+    </div>
+
+    <div class='container'>
+      <div class='items-row'>
+          <div class='item-card'>
+              <h3>White shirt</h3>
+              <div class='card-top'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fionsenergia.com%2F%3Fd%3D720729011082&psig=AOvVaw34SjfP9VKZs-Jl1BdJKYxF&ust=1742117792988000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIjOy9jki4wDFQAAAAAdAAAAABAE' width='100%'></div>
+              
+              <div class='card-bottom'>
+                  <p class='description'>Plain white shirt for male</p>
+                  <p>Price: <span class='price regular'>29.99</span> $.</p>
+                  <a class="button" href=''>BUY</a>
+              </div>
+          </div>
+          <div class='item-card'>
+              <h3>Barca hoodie</h3>
+              <div class='card-top'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futfanatics.net%2Fbarcelona-badge-youth-hoodie&psig=AOvVaw1SbPrLFwsyVcNRL869mCpp&ust=1742118218725000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNCWzp3mi4wDFQAAAAAdAAAAABAE' width='100%'></div>
+              
+              <div class='card-bottom'>
+                  <p class='description'>Black hoodie with FC Barcelona logo for male and female</p>
+                  <p>Price: <span class='price huge'>69.99</span> $.</p>
+                  <a class="button" href=''>BUY</a>
+              </div>
+          </div>
+          <div class='item-card'>
+              <h3>Nike pants</h3>
+              <div class='card-top'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ebay.com%2Fitm%2F354637329181&psig=AOvVaw07HJh_1RoQavr7xTYQSfSc&ust=1742117986774000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNCp8a7li4wDFQAAAAAdAAAAABAE' width='100%'></div>
+              <div class='card-bottom'>
+                  <p class='description'>Black Nike pants for male</p>
+                  <p>Price: <span class='price tiny'>39.99</span> $.</p>
+                  <a class="button" href=''>BUY</a>
+              </div>
+          </div>
+          <div class='item-card'>
+              <h3>Liverpool jersey</h3>
+              <div class='card-top'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fanatics.com%2Fpremier-league%2Fliverpool%2Fmohamed-salah-liverpool-nike-2024%2F25-home-authentic-player-jersey-red%2Fo-43203784%2Bt-81756685%2Bp-46115813073%2Bz-9-1603991835&psig=AOvVaw3DFLxDCrAMkkjZL4rXz5Fu&ust=1742118177399000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjVnIrmi4wDFQAAAAAdAAAAABAJ' width='100%'></div>
+              
+              <div class='card-bottom'>
+                  <p class='description'>FC Liverpool player jersey for male, female and child</p>
+                  <p>Price: <span class='price special'>79.99</span> $.</p>
+                  <a class="button" href=''>BUY</a>
+              </div>
+          </div>
+          <div class='item-card'>
+            <h3>Flower pot</h3>
+            <div class='card-top'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.homesake.in%2Fproducts%2Fwhite-metal-flower-pot-succulent-plant-pot-indoor-and-outdoor-set-of-2&psig=AOvVaw2DU7l2I7-MJNZxGEiY2qpd&ust=1742118111760000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMiK3uvli4wDFQAAAAAdAAAAABAE' width='100%'></div>
+            <div class='card-bottom'>
+                <p class='description'>Flower pot for any plant</p>
+                <p>Price: <span class='price tiny'>12.99</span> $.</p>
+                <a class="button" href=''>BUY</a>
+            </div>
+        </div>
+        <div class='item-card'>
+          <h3>Red headphones</h3>
+          <div class='card-top'><img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fmyhypergear.com%2Fproducts%2Fvibe-wireless-headphones-red&psig=AOvVaw20dEBqR7-GQHQ_Hf4WbMz3&ust=1742118072037000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCE0dzli4wDFQAAAAAdAAAAABAE' width='100%'></div>
+          <div class='card-bottom'>
+              <p class='description'>Red headphones for games</p>
+              <p>Price: <span class='price tiny'>59.99</span> $.</p>
+              <a class="button" href=''>BUY</a>
+          </div>
+      </div>
+      </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
 
